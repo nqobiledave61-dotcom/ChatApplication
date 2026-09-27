@@ -31,11 +31,9 @@ public class Login {
                 && username.length() <= 5;
     }
 
-    // Checks if the password:
-    // - has at least eight characters
-    // - contains a capital letter
-    // - contains a number
-    // - contains a special character
+    // Validates the password according to the assignment requirements.
+    // The password must contain at least eight characters,
+    // a capital letter, a number, and a special character.
     public boolean checkPasswordComplexity() {
 
         if (password == null || password.length() < 8) {
