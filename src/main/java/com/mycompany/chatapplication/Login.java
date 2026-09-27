@@ -104,8 +104,9 @@ public class Login {
         }
     }
 
-    // Checks whether the login details match
-    // the details used during registration.
+    // Checks whether the entered username and password
+    // match the details that were used during registration.
+    // Returns true when the login is successful and false otherwise.
     public boolean loginUser(String enteredUsername,
             String enteredPassword) {
 
