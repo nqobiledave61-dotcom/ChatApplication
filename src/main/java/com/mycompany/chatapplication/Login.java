@@ -22,8 +22,8 @@ public class Login {
         this.loginSuccessful = false;
     }
 
-    // Checks if the username contains an underscore
-    // and is no more than five characters long.
+    // Validates the username according to the assignment requirements.
+    // The username must contain an underscore and be no more than five characters long.
     public boolean checkUserName() {
 
         return username != null
