@@ -66,9 +66,9 @@ public class Login {
                 && hasSpecialCharacter;
     }
 
-    // Checks if the cellphone number is correctly formatted.
-    // South African international format:
-    // +27831234567
+    // Validates the cellphone number according to the assignment requirements.
+    // The number must use the South African international format,
+    // starting with +27 followed by nine digits.
     //
     // Regular expression reference:
     // Oracle Java Pattern documentation:
