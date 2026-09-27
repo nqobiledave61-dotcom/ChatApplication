@@ -81,8 +81,10 @@ public class Login {
                 && cellPhoneNumber.matches(phoneRegex);
     }
 
-    // Registers the user.
-    public String registerUser() {
+    // Registers the user by checking the username,
+    // password, and cellphone number requirements.
+    // Returns a message explaining whether registration was successful.
+        public String registerUser() {
 
         if (!checkUserName()) {
 
